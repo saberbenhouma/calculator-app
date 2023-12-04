@@ -37,22 +37,18 @@ The Python backend will be available at http://localhost:8000.
 ### Documentation
 #### Backend - FastAPI
 main.py
-This module contains the FastAPI application for the calculator backend.
-
-app: FastAPI application instance.
-Base: SQLAlchemy declarative base for database models.
-Calculation: SQLAlchemy model for calculations.
-evaluate_npi: Function to evaluate expressions in Reverse Polish Notation (RPN).
-calculate: FastAPI endpoint for evaluating expressions.
-export_to_csv: FastAPI endpoint for exporting calculations to CSV.
-calculations.py
-This module contains functions for evaluating mathematical expressions.
-
-evaluate_npi: Function to evaluate expressions in Reverse Polish Notation (RPN).
+This module contains the FastAPI application for the calculator backend.  
+app: FastAPI application instance.  
+Base: SQLAlchemy declarative base for database models.  
+Calculation: SQLAlchemy model for calculations.  
+evaluate_npi: Function to evaluate expressions in Reverse Polish Notation (RPN).  
+calculate: FastAPI endpoint for evaluating expressions.  
+export_to_csv: FastAPI endpoint for exporting calculations to CSV.  
+calculations.py: This module contains functions for evaluating mathematical expressions.  
+evaluate_npi: Function to evaluate expressions in Reverse Polish Notation (RPN).  
 export.py
-This module contains functions for exporting calculations to CSV.
-
-export_to_csv: Function to export calculations to CSV.
+This module contains functions for exporting calculations to CSV.  
+export_to_csv: Function to export calculations to CSV.  
 
 #### Frontend - React
 App.js
