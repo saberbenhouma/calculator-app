@@ -1,0 +1,11 @@
+from sqlalchemy import Column, Float, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+
+class Calculation(Base):
+    __tablename__ = 'calculations'
+
+    id = Column(Integer, primary_key=True, index=True)
+    expression = Column(String, index=True)
+    result = Column(Float)
